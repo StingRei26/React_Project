@@ -54,7 +54,7 @@ class App extends Component {
       padding: '8px',
       cursor: 'pointer',
       ':hover': {
-        backgroundColor: 'lightgreen',
+        backgroundColor: 'yellow',
         color: 'black'
       }
     };
@@ -77,7 +77,7 @@ class App extends Component {
 
       style.backgroundColor = 'red';
       style[':hover'] = {
-        backgroundColor: 'salmon',
+        backgroundColor: 'green',
         color: 'black'
       };
     }
